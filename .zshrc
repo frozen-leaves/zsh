@@ -37,19 +37,25 @@ source $ZSH/oh-my-zsh.sh
 
 # External Alias Files
 if [ -f ~/.zsh/gitalias ]; then
-    source ~/.zsh/gitalias
+    source ~/.zsh_configs/gitalias
 else
     print "Git aliases not found - skipping"
 fi
 
 if [ -f ~/.zsh/pythonalias ]; then
-    source ~/.zsh/pythonalias
+    source ~/.zsh_configs/pythonalias
 else
     print "Python aliases not found - skipping"
 fi
 
+if [ -f ~/.zsh/sailalias ]; then
+    source ~/.zsh_configs/sailalias
+else
+    print "Sail aliases not found - skipping"
+fi
+
 if [ -f ~/.zsh/personalalias ]; then
-    source ~/.zsh/personalalias
+    source ~/.zsh_configs/personalalias
 else
     print "Personal aliases not found - skipping"
 fi

@@ -1,0 +1,5 @@
+# ----------------------
+# Sail Aliases
+# ----------------------
+alias sa='sail artisan'
+alias sai='sail artisan ide-helper:models --write --reset'

@@ -1,0 +1,7 @@
+# ----------------------
+# Python Aliases
+# ----------------------
+alias pr='poetry run'
+alias prp='poetry run python3 manage.py'
+alias prt='poetry run pytest --cov=beers --cov-config=.coveragerc -rP'
+alias prth='poetry run pytest --cov=beers --cov-config=.coveragerc -rP --cov-report html'
